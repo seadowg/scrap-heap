@@ -10,7 +10,7 @@ end
 
 class DocFetcher
   def fetch(url)
-    html = open (url) { |f| f.read }
+    html = URI.open (url) { |f| f.read }
     Nokogiri::XML(html)
   end
 end

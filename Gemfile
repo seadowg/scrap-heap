@@ -1,5 +1,6 @@
 source "https://rubygems.org"
-ruby "2.7.1"
+ruby "3.1.0"
 
 gem 'sinatra'
+gem 'nokogiri'
 gem 'thin'
