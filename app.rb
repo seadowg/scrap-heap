@@ -62,7 +62,7 @@ class BandcampWishlist
       {
         "title": track,
         "album": album,
-        "artist": artist
+        "artists": artist
       }
     }
   end
