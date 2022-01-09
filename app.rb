@@ -75,5 +75,6 @@ get '/:service/:data/:identifier' do
     end
   end
 
+  content_type :json
   data_fetcher.fetch(params[:identifier]).as(params[:format])
 end
